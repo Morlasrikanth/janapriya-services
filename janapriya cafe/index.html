@@ -6,36 +6,12 @@
   <title>Janapriya Internet</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      background-color: #f0f4f8;
-      color: #1a1a1a;
-    }
-
-    .navbar .logo {
-      font-size: 24px;
-      font-weight: 700;
-      color: #2f80ed;
-    }
-
-    .service-card {
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-      overflow: hidden;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      animation: fadeInUp 0.6s ease;
-    }
-
-    .service-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
-    }
-  </style>
 </head>
 <body>
   <header class="navbar">
     <div class="logo">Janapriya Internet</div>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
     <nav>
       <a href="#home">Home</a>
       <a href="#about">About Us</a>
@@ -66,34 +42,13 @@
   <section id="services" class="services-section">
     <h2>Our Services</h2>
     <div class="services-grid">
-      <div class="service-card">
-        <img src="internet.png" alt="Internet Access">
-        <h3>High-speed Internet Access</h3>
-      </div>
-      <div class="service-card">
-        <img src="passport.png" alt="Passport">
-        <h3>Passport Applications</h3>
-      </div>
-      <div class="service-card">
-        <img src="aadhar.png" alt="Aadhar">
-        <h3>Aadhar Services</h3>
-      </div>
-      <div class="service-card">
-        <img src="license.png" alt="Licence">
-        <h3>Seed Licence Applications</h3>
-      </div>
-      <div class="service-card">
-        <img src="print.png" alt="Printing">
-        <h3>Printing & Scanning</h3>
-      </div>
-      <div class="service-card">
-        <img src="form.png" alt="Form Filling">
-        <h3>Online Form Filling</h3>
-      </div>
-      <div class="service-card">
-        <img src="lamination.png" alt="Lamination">
-        <h3>Laminations</h3>
-      </div>
+      <div class="service-card"><img src="internet.png" alt="Internet Access"><h3>High-speed Internet Access</h3></div>
+      <div class="service-card"><img src="passport.png" alt="Passport"><h3>Passport Applications</h3></div>
+      <div class="service-card"><img src="aadhar.png" alt="Aadhar"><h3>Aadhar Services</h3></div>
+      <div class="service-card"><img src="license.png" alt="Licence"><h3>Seed Licence Applications</h3></div>
+      <div class="service-card"><img src="print.png" alt="Printing"><h3>Printing & Scanning</h3></div>
+      <div class="service-card"><img src="form.png" alt="Form Filling"><h3>Online Form Filling</h3></div>
+      <div class="service-card"><img src="lamination.png" alt="Lamination"><h3>Laminations</h3></div>
     </div>
   </section>
 
@@ -107,7 +62,6 @@
       </div>
     </div>
   </section>
-  
 
   <section id="contact" class="contact-section">
     <h2>Contact Us</h2>
@@ -132,14 +86,12 @@
       </form>
     </div>
   </section>
-  
-  
+
 
   <footer>
     <div class="footer-content">
       <h3>Janapriya Café</h3>
       <p>Your trusted digital services partner</p>
-      
       <p>&copy; 2025 JanaPriya Internet</p>
     </div>
   </footer>
