@@ -1,0 +1,5 @@
+.logo {
+  font-size: 2rem;       /* Makes the title bigger */
+  font-weight: bold;     /* Makes the title bold */
+  color: white;          /* Optional: keeps it visible on dark background */
+}

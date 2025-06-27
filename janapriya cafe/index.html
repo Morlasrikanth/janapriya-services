@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Janapriya Internet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #f0f4f8;
+      color: #1a1a1a;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: 700;
+      color: #2f80ed;
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeInUp 0.6s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Janapriya Internet</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to Janapriya Internet</h1>
+      <p>Your trusted digital services partner for all your internet, documentation, and printing needs.</p>
+      <a href="#services" class="cta-btn">Explore Our Services</a>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2>About Janapriya Internet</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>JanaPriya Services is your go-to digital center for essential internet and document-related services. We are more than just an internet cafe — we are a community-based service provider committed to simplifying tasks for students, professionals, farmers, and families alike.</p>
+        <p>We pride ourselves in offering trusted and timely services with a personal touch.</p>
+      </div>
+      <img src="cafe.jpg" alt="Café Image">
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="internet.png" alt="Internet Access">
+        <h3>High-speed Internet Access</h3>
+      </div>
+      <div class="service-card">
+        <img src="passport.png" alt="Passport">
+        <h3>Passport Applications</h3>
+      </div>
+      <div class="service-card">
+        <img src="aadhar.png" alt="Aadhar">
+        <h3>Aadhar Services</h3>
+      </div>
+      <div class="service-card">
+        <img src="license.png" alt="Licence">
+        <h3>Seed Licence Applications</h3>
+      </div>
+      <div class="service-card">
+        <img src="print.png" alt="Printing">
+        <h3>Printing & Scanning</h3>
+      </div>
+      <div class="service-card">
+        <img src="form.png" alt="Form Filling">
+        <h3>Online Form Filling</h3>
+      </div>
+      <div class="service-card">
+        <img src="lamination.png" alt="Lamination">
+        <h3>Laminations</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="proprietor" class="proprietor-section">
+    <div class="proprietor-container">
+      <img src="owner.jpeg" alt="Proprietor Photo" class="proprietor-photo" />
+      <div class="proprietor-info">
+        <h3>Proprietor</h3>
+        <h2>Morla SambaSiva Rao</h2>
+        <p>Founder & Operator of JanaPriya Internet</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Get in touch with us for all your digital service needs</p>
+  
+    <div class="contact-card">
+      <div class="contact-info">
+        <p><strong>Address:</strong> Repalle, India</p>
+        <p><strong>Phone:</strong> +91 70139 50172</p>
+        <p><strong>Email:</strong> janapriya.repalle@gmail.com</p>
+        <div class="map-box">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952763.3025060603!2d75.61093930692292!3d14.649105465807896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a49f579fc8e2739%3A0x67bab72677b040d!2sJanapriya%20Internet%20Centre!5e0!3m2!1sen!2sin!4v1750955336809!5m2!1sen!2sin"
+            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+  
+      <form class="contact-form">
+        <input type="text" placeholder="Name" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  
+
+  <footer>
+    <div class="footer-content">
+      <h3>Janapriya Café</h3>
+      <p>Your trusted digital services partner</p>
+      
+      <p>&copy; 2025 JanaPriya Internet</p>
+    </div>
+  </footer>
+</body>
+</html>
